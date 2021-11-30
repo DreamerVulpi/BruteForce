@@ -1,4 +1,5 @@
 <?php
+
 if( isset( $_GET[ 'Login' ] ) ) {
 	// Get username
 	$user = preg_grep("[A-z]", Array($_GET['username']))[0];
@@ -23,4 +24,5 @@ if( isset( $_GET[ 'Login' ] ) ) {
 	}
 	((is_null($___mysqli_res = mysqli_close($GLOBALS["___mysqli_ston"]))) ? false : $___mysqli_res);
 }
+
 ?>
