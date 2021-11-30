@@ -1,6 +1,6 @@
 <?php
 
-if( isset( $_GET[ 'Login' ] ) ) {
+if( isset( $_GET[ 'Login' ] )) {
 	// Get username
 	$user = preg_grep("[A-z]", Array($_GET['username']))[0];
 	// Get password
