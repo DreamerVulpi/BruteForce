@@ -30,6 +30,11 @@
    $html .= "<p>Welcome to the password protected area {$user}</p>";
    $html .= "<img src=\"{$avatar}\" />";
    ```
+4. CWE-328: CWE-328: Использование слабого хеширования (https://cwe.mitre.org/data/definitions/328.html)
+
+   ```php
+   $pass = md5( $pass );
+   ```
 
 ## 3 Пункт
 
