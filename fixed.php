@@ -16,11 +16,10 @@ if( isset( $_GET[ 'Login' ] )) {
 		// Login successful
 		$html .= "<p>Welcome to the password protected area {$user}</p>";
 		$html .= "<img src=\"{$avatar}\" />";
-	}
-	else {
+	} else {
 		// Login failed
-		sleep(600)
 		$html .= "<pre><br />Username and/or password incorrect.</pre>";
+		sleep(600)
 	}
 	((is_null($___mysqli_res = mysqli_close($GLOBALS["___mysqli_ston"]))) ? false : $___mysqli_res);
 }
