@@ -28,7 +28,7 @@ if( isset( $_GET[ 'Login' ] )) {
 			fwrite($fp, $file . PHP_EOL)
 		}
 	}
-	fclose(fp);ы
+	fclose(fp);
 	((is_null($___mysqli_res = mysqli_close($GLOBALS["___mysqli_ston"]))) ? false : $___mysqli_res);
 }
 
